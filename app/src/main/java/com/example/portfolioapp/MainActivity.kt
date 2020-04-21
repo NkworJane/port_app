@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         clickIcon.setOnClickListener(View.OnClickListener {
             val intent = Intent(Intent.ACTION_VIEW)
-            intent.data = Uri.parse("https://tutorial.eyehunts.com/")
+            intent.data = Uri.parse("Do you want to display app on browser or on phone app")
             startActivity(intent)
         })
 
