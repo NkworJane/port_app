@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Portfolio App</string>
+    <string name="nkwor_jane_chinelo">Nkwor Jane Chinelo</string>
+    <string name="mobile_developer">Mobile Developer</string>
+    <string name="my_picture">My picture</string>
+    <string name="android">Android</string>
+    <string name="todo">TODO</string>
+    <string name="ideads_maker_curious_and_nature_lover">ideads maker, curious and nature lover</string>
+    <string name="i_m_warmed_of_mobile_technology">I\'m warmed of mobile technology</string>
+</resources>
