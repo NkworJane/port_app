@@ -8,6 +8,7 @@ import android.content.Intent
 import android.net.Uri
 import android.view.View
 import android.widget.AdapterView
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btn_browser.setOnClickListener(View.OnClickListener {
+        clickIcon.setOnClickListener(View.OnClickListener {
             val intent = Intent(Intent.ACTION_VIEW)
             intent.data = Uri.parse("https://tutorial.eyehunts.com/")
             startActivity(intent)
